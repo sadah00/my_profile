@@ -1,11 +1,14 @@
 body {
-    background-color: rgb(148, 146, 146);
+    background-color: rgb(211, 207, 207);
+    font-family: Arial, sans-serif;
 }
 
 .block1 {
     display: flex;
-    background-color: pink;
+    background-color: darkmagenta;
     justify-content: space-between;
+    position: sticky;
+    margin: 0;
 }
 
 .block1 .nav {
@@ -16,7 +19,10 @@ body {
     list-style: none;
     font-size: larger;
 }
-
+.block1 a:hover {
+    color:black;
+    text-decoration: underline;
+}
 .block1 a {
     text-decoration: none;
     color: white;
@@ -37,18 +43,24 @@ body {
 
 .cube .image img {
     width: 300px;
-    height: 300px;
-    border-radius: 20px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .cube .text h2 {
     font-size: 30px;
-    color: black;
+    color: darkmagenta;
+    margin-top: 120px;
+    margin-bottom: 20px;
 }
 
 .about {
-    width: 100%;
+    width: 50%;
     text-align: center;
+    margin-left: 320px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .about h2 {
@@ -63,3 +75,146 @@ body {
     padding: 10px;
     line-height: 1.5;
 }
+
+.title {
+    text-align: center;
+    color: darkmagenta;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.projects .project1,
+.projects .project2,
+.projects .project3 {
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px lightslategray;
+    align-items: center;
+}
+.projects .project1 img,
+.projects .project2 img, 
+.projects .project3 img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.projects .project1 h2,
+.projects .project2 h2,
+.projects .project3 h2 {
+    text-align: center;
+    color: darkmagenta;
+    font-size: 20px;
+}
+.projects .project1 p,
+.projects .project2 p,
+.projects .project3 p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+.skill{
+    text-align: center;
+    color: darkmagenta;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.skillbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.skillbox .box1,
+.skillbox .box2,
+.skillbox .box3 {
+    background-color: white;
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px lightslategray;
+    padding: 20px;
+}
+.skillbox .box1 h2,
+.skillbox .box2 h2,
+.skillbox .box3 h2 {
+    text-align: center;
+    color: darkmagenta;
+    font-size: 20px;
+}
+.skillbox .box1 p,
+.skillbox .box2 p,
+.skillbox .box3 p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+.form {
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.form input{
+    width: 500px;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form textarea {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form button {
+    padding: 10px 20px;
+    background-color: darkmagenta;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+.form button:hover {
+    background-color: darkorchid;
+    cursor: pointer;
+}
+.links {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+ 
+
+        

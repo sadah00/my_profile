@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My profile</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -22,7 +25,7 @@
 
     <div class="cube">
         <div class="image">
-            <img src="van.webp" alt="Profile Picture">
+            <img src="me.svg" alt="Profile Picture">
         </div>
         <div class="text">
             <h2>Hi, I'm Kimberly Sada</h2>
@@ -37,53 +40,67 @@
             hiking, reading, or exploring new coffee shops.</p>
     </div>
 
-    <h1>My Projects</h1>
-    <div>
-        <img src="" alt="">
-        <h2>Portfolio Website</h2>
-        <p>A personal website built with HTML, CSS, and JavaScript to show case my skills and projects</p>
-    </div>
-    <div>
-        <img src="" alt="">
-        <h2>Task Manager</h2>
-        <p>A to-do list app built using React and local storage to manage daily tasks</p>
-    </div>
-    <div>
-        <img src="" alt="">
-        <h2>Blog Template</h2>
-        <p>A clean and responsive blog layout using flexbox and CSS Grid</p>
-    </div>
-
-    <h1>My Skills</h1>
-    <div>
-        <h2>HTML & CSS</h2>
-        <p>Semantic markup, responsive design, and cross-browser compatibility</p>
-    </div>
-    <div>
-        <h2>JavaScript</h2>
-        <p>DOM manipulation, event handling, and asynchronous programming</p>
-    </div>
-    <div>
-        <h2>React</h2>
-        <p>Component-based architecture, state management, and hooks</p>
+    <h1 class="title">My Projects</h1>
+    <div class="projects">
+        <div class="project1">
+            <img src="pro.svg" alt="">
+            <h2>Portfolio Website</h2>
+            <p>A personal website built with HTML, CSS, and JavaScript to showcase my skills and projects</p>
+        </div>
+        <div class="project2">
+            <img src="purp.svg" alt="">
+            <h2>Task Manager</h2>
+            <p>A to-do list app built using React and local storage to manage daily tasks</p>
+        </div>
+        <div class="project3">
+            <img src="bot.svg" alt="">
+            <h2>Blog Template</h2>
+            <p>A clean and responsive blog layout using flexbox and CSS Grid</p>
+        </div>
     </div>
 
-    <h1>Contact Me</h1>
-    <form action="">
-        <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+    <h1 class="skill">My Skills</h1>
+    <div class="skillbox">
+        <div class="box1">
+            <h2>HTML & CSS</h2>
+            <p>Semantic markup, responsive design, and cross-browser compatibility</p>
+        </div>
+        <div class="box2">
+            <h2>JavaScript</h2>
+            <p>DOM manipulation, event handling, and asynchronous programming</p>
+        </div>
+        <div class="box3">
+            <h2>React</h2>
+            <p>Component-based architecture, state management, and hooks</p>
+        </div>
+    </div>
+    <div class="form">
+        <h1 class="contact">Contact Me</h1>
+        <form action="">
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
 
-        <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
 
-        <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea><br>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea><br>
 
-        <button type="submit">Send</button>
-    </form>
+            <a href=""><button type="submit">Send</button></a>
+        </form>
+    </div>
 
-    <a href="" target="_blank">Facebook</a>
-    <a href="" target="_blank">Twitter</a>
-    <a href="" target="_blank">LinkedIn</a>
-    <a href="" target="_blank">GitHub</a>
-
+    <div class="links">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook fa-lg"
+                style="color:darkorchid;"></i></a>
+        <a href="https://x.com/" target="_blank"><i class="fa-brands fa-square-x-twitter fa-lg"
+                style="color: darkorchid;"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-square-linkedin fa-lg"
+                style="color: darkorchid;"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github fa-lg"
+                style="color: darkorchid;"></i></a>
+    </div>
+    <div class="whatsapp">
+        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-square-whatsapp fa-bounce fa-2xl"
+                style="color: #2b9158;"></i></a>
+    </div>
     <footer>
         <p>&copy; 2025 Jane Doe. All rights reserved.</p>
     </footer>
