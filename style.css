@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(211, 207, 207);
     font-family: Arial, sans-serif;
@@ -9,6 +14,7 @@ body {
     justify-content: space-between;
     position: sticky;
     margin: 0;
+    padding: 20px;
 }
 
 .block1 .nav {
@@ -101,6 +107,12 @@ body {
     border-radius: 20px;
     box-shadow: 3px 3px 3px lightslategray;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+.projects .project1:hover,
+.projects .project2:hover,
+.projects .project3:hover {
+    transform: scale(1.05);
 }
 .projects .project1 img,
 .projects .project2 img, 
@@ -149,6 +161,12 @@ body {
     border-radius: 20px;
     box-shadow: 3px 3px 3px lightslategray;
     padding: 20px;
+    transition: transform 0.3s ease;
+}
+.skillbox .box1:hover,
+.skillbox .box2:hover,
+.skillbox .box3:hover {
+    transform: scale(1.05);
 }
 .skillbox .box1 h2,
 .skillbox .box2 h2,
