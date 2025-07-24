@@ -12,9 +12,10 @@ body {
     display: flex;
     background-color: darkmagenta;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     margin: 0;
     padding: 20px;
+    width: 100%;
 }
 
 .block1 .nav {
@@ -50,14 +51,14 @@ body {
 .cube .image img {
     width: 300px;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
 .cube .text h2 {
     font-size: 30px;
     color: darkmagenta;
-    margin-top: 120px;
+    margin-top: 170px;
     margin-bottom: 20px;
 }
 
@@ -65,8 +66,8 @@ body {
     width: 50%;
     text-align: center;
     margin-left: 320px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;;
 }
 
 .about h2 {
@@ -95,6 +96,8 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    width: 80%;
+    margin: auto;
 }
 
 .projects .project1,
@@ -121,6 +124,7 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 .projects .project1 h2,
 .projects .project2 h2,
@@ -144,12 +148,15 @@ body {
     padding: 20px;
     margin-top: 70px;
     margin-bottom: 70px;
+    
 }
 .skillbox {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    width: 80%;
+    margin: auto;
 }
 .skillbox .box1,
 .skillbox .box2,
@@ -214,6 +221,14 @@ body {
 .form button:hover {
     background-color: darkorchid;
     cursor: pointer;
+}
+.form .contact {
+    color: darkmagenta;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    
 }
 .links {
     text-align: center;
